@@ -1,0 +1,94 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {height: 100%; }
+body {background-color: white; margin: 0; }
+#header {width: 100%; height: 50px; background-color: black; }
+#headerlist {color: white; display: inline-block; padding: 20px; font-family: Futura; margin-top: -7px; 
+	text-decoration: underline;}
+#navbar {text-align: center;}
+#content {width: 100%; height: 500px; background-color: #C0C0C0; }
+#footer {width: 100%; height: 100px; background-color: #7D7D7D; text-align: center; border-top: 5px solid black; }
+#footerlist {color: white; display: inline-block; padding: 20px; font-family: Futura; font-size: 13px}
+
+#divImage {background-image: url("http://turnthelighton.fr/vincent/wp-content/uploads/2010/07/TagHeuerHD_01.png"); 
+height: 100%; width: 100%; background-size: 100%; }
+#divImage2 {background-image:url("http://ak.picdn.net/shutterstock/videos/471772/preview/stock-footage-time-is-running-out-close-up-of-watch.jpg");
+height: 100%; width:100%; background-repeat:; background-size: 95%;}
+#divImage3 {background-image:url("http://montre24.com/postimg/HW_OPUS12_movement_black_background_Press-resolution.jpg");
+height: 100%; width:100%; background-repeat: no-repeat; background-size:;}
+#divImage4 {background-image:url("http://4.bp.blogspot.com/-wOszcvD0Jik/TkfGxdXRQXI/AAAAAAAAE-U/n3rPMZStePw/s1600/Breguet_Tradition_Handwound_Watch.jpg");
+height: 100%; width:100%; background-repeat: no-repeat; background-size:;}
+#divImage5 {background-image:url("http://wallpaperpassion.com/upload/29587/berenice-marlohe-wrist-watch-wallpaper.jpg");
+height:100%; width:100%; background-size: 70%;}
+#divImage6 {background-image:url("http://www.wallpaper-source.com/wallpapers/Man_Made/64933_Man%20Made_Man_Made_-_Watch_Wallpaper.jpg");
+height:100%; width:100%; background-size: 100%;}
+
+#info {background-color: white; width: 25%; height: 250px; border: 5px solid black; position: absolute; left: 37%; top: 25%;}
+#infotekst {font-size: 12px; font-family: Futura; text-align: center; padding: 10px; margin-top: 20%; }
+#signinform {width: 260px; padding: 20px; margin-top: 8px; font-family: Futura; font-size: 12px}
+#loginform {width: 240px; background: white; padding: 5px; margin-bottom: 5px; margin-top: 5px; 
+	border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;
+    border-bottom: 1px solid black;}
+#formMargin {margin-top: 10px;}
+#bevestigbutton {margin-top: 10px; margin-bottom: 10px;}
+#regVoornaam {margin-left: 60px;}
+#regAchternaam {margin-left: 50px;}
+#regGebruikersnaam {margin-left: 26px;}
+#regWachtwoord {margin-left: 46px; }
+#bedrijfsEmail {margin-left: 87px;}
+.loginform2 {border: 1px solid black; padding: 2px;}
+textarea {max-width: 95%; width: 95%; max-height: 100px; height: 100px; margin-top: 5px; margin-bottom: 5px;}
+#info2 {background-color: white; width: 25%; height: 400px; border: 5px solid black; position: absolute; left: 37%; top: 15%;}
+#signinform2 {width: 260px; padding: 20px; margin: auto; font-family: Futura; font-size: 12px}
+.tijdinput {width: 50px; margin-top: 5px; margin-bottom: 5px;}
+#info3 {background-color: white; width: 90%; height: 450px; border: 5px solid black; position: absolute; left: 5%; top: 10%;}
+#agendamenu {width: 95%; }
+table {width: 95%; margin-left: 25px; background-color: white; margin-top: 10px; margin-bottom: auto; }
+#agendahr {width:95%; margin-left: 52px; }
