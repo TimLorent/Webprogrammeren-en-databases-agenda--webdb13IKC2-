@@ -55,6 +55,7 @@ body {background-color: white ; margin: 0; padding: 0; height: 100%;}
 .content {width: 100%; height: 500px; background-color: #C0C0C0; }
 .footer {height: 100px; background-color: #7D7D7D; text-align: center; border-top: 5px solid black; border-bottom: 3px solid black; }
 .footerlist {color: white; display: inline-block; padding: 20px; font-family: Futura; font-size: 13px}
+textarea {max-width: 95%; width: 95%; max-height: 100px; height: 100px; margin-top: 5px; margin-bottom: 5px;}
 
 #divImage {background-image: url("http://images.fineartamerica.com/images-medium-large/pocket-watch-mechanism-maxim-sivyi.jpg"); 
 height: 100%; width: 100%; background-size: 960px; }
@@ -70,26 +71,28 @@ height:100%; width:100%; background-repeat: no-repeat; background-size: 960px; }
 height:100%; width:100%; background-repeat: no-repeat; background-size: 960px;}
 
 .info {background-color: white; width: 295px; height: 250px; border: 5px solid black; position: absolute; margin: 120px 330px auto;}
+.info2 {background-color: white; width: 295px; height: 400px; border: 5px solid black; position: absolute; margin: 45px 330px auto;}
+.info3 {background-color: white; width: 850px; height: 500px; border: 5px solid black; position: absolute; margin: 0px auto;}
 #infotekst {font-size: 12px; font-family: Futura; text-align: center; padding: 10px; margin-top: 20%; }
+
 .signinform {width: 260px; padding: 20px; margin-top: 8px; font-family: Futura; font-size: 12px}
+.signinform2 {width: 260px; padding: 20px; margin: auto; font-family: Futura; font-size: 12px}
+
 .loginform {width: 240px; background: white; padding: 5px; margin-bottom: 5px; margin-top: 5px; 
 	border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;
     border-bottom: 1px solid black;}
-#actform {border: 1px solid black; padding: 2px;}
+.loginform2 {border: 1px solid black; padding: 2px;}
+.actform {border: 1px solid black; padding: 2px;}
 .formMargin {margin-top: 10px;}
+
 #bevestigbutton {margin-top: 10px; margin-bottom: 10px;}
+
 #regVoornaam {margin-left: 60px;}
 #regAchternaam {margin-left: 50px;}
 #regGebruikersnaam {margin-left: 26px;}
 #regWachtwoord {margin-left: 46px; }
 #bedrijfsEmail {margin-left: 87px;}
-.loginform2 {border: 1px solid black; padding: 2px;}
-textarea {max-width: 95%; width: 95%; max-height: 100px; height: 100px; margin-top: 5px; margin-bottom: 5px;}
-#info2 {background-color: white; width: 295px; height: 400px; border: 5px solid black; position: absolute; margin: 45px 330px auto;}
-#signinform2 {width: 260px; padding: 20px; margin: auto; font-family: Futura; font-size: 12px}
-.tijdinput {width: 50px; margin-top: 5px; margin-bottom: 5px;}
-#info3 {background-color: white; width: 90%; height: 450px; border: 5px solid black; position: absolute; margin: 120px 330px auto;}
+
 #agendamenu {width: 95%; }
-table {width: 95%; margin-left: 25px; background-color: white; margin-top: 10px; margin-bottom: auto; }
-#agendahr {width:95%; margin-left: 52px; }
+.agendahr {width:95%; margin-left: 52px; }
 
