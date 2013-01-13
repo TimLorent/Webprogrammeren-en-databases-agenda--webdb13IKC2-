@@ -2,58 +2,58 @@
 <html>
 
 <head>
-  <link type="text/css" rel="stylesheet" href="agenda.css">
+	<link type="text/css" rel="stylesheet" href="agenda.css">
 	<title>Activiteit toevoegen</title>
 </head>
 
 <body>
 
 <div class="container">
-	<div id="header">
-		<div id="navbar">
+	<div class="header">
+		<div class="navbar">
 			<ul>
-				<li id="headerlist">Home</li>
-				<li id="headerlist">Agenda</li>
-				<li id="headerlist" style="font-style:italic; text-decoration:none; font-size:18px">Merknaam</li>
-				<li id="headerlist">Inloggen</li>
-				<li id="headerlist">Contact</li>
+				<li class="headerlist">Home</li>
+				<li class="headerlist">Agenda</li>
+				<li class="headerlist" style="font-style:italic; text-decoration:none; font-size:18px">Merknaam</li>
+				<li class="headerlist">Inloggen</li>
+				<li class="headerlist">Contact</li>
 			</ul>
 		</div>
 	</div>
 
-	<div id="content">
-		<div id="info2">
-		<form action="" id="signinform2">
+	<div class="content">
+		<div class="info2">
+		<form action="" class="signinform2">
 			<strong>Activiteit toevoegen</strong>
     		<hr>
-			Titel: <input type ="text" name="Titel" maxlength="21" style="margin-left: 15px"><br>
-			Datum: <input type="date" name="datum" maxlength="10" placeholder="dd/mm/jjjj"><br>
+			Titel: <input type ="text" class="actform" name="Titel" maxlength="21" style="margin-left: 15px"><br>
+			Datum: <input type="date" class="actform" name="datum" maxlength="10" placeholder="dd/mm/jjjj"><br>
 			<br>
 			Activiteit details:
 			<textarea NAME="tekstvak" ROWS="4" COLS="50" maxlength="375"></textarea><br>
 			Doelgroep:
 			<select>
       		<ul>
-        		<option>Aandeelhouders</option>
-        		<option>Klanten</option>
-        		<option>Werknemers</option>
+        		<option value="Aandeelhouders">Aandeelhouders</option>
+        		<option value="Klanten">Klanten</option>
+        		<option value="Werknemers">Werknemers</option>
       		</ul>
     		</select>
     		<br>
-			Begintijd: <input type="text" name="Begintijd" class="tijdinput" maxlength="5" placeholder="00:00">
-			Eindtijd: <input type="text" name="Eindtijd" class="tijdinput" maxlength="5" placeholder="00:00">
+			Begintijd: <input type="text" class="actform" name="Begintijd" maxlength="5" placeholder="00:00" style="width: 50px; margin-top: 5px; margin-bottom: 5px;">
+			Eindtijd: <input type="text" class="actform" name="Eindtijd" maxlength="5" placeholder="00:00" style="width: 50px; margin-top: 5px; margin-bottom: 5px;">
 			<br>
 			Herhaal afspraak:
 			<select>
       			<ul>
-        			<option>Dagelijks</option>
-        			<option>Wekelijks</option>
-        			<option>Maandelijks</option>
-        			<option>Jaarlijks</option>
+        			<option value="Dagelijks">Dagelijks</option>
+        			<option value="Wekelijks">Wekelijks</option>
+        			<option value="Maandelijks">Maandelijks</option>
+        			<option value="Jaarlijks">Jaarlijks</option>
       			</ul>
     		</select>
 			<hr>
-				<button type="button" onclick="alert('Activiteit verstuurd!')">Versturen</button>
+				<input type="button" value="Versturen" />
 			<hr>
 			</div>
 		</form>
@@ -61,13 +61,13 @@
 		</div>
 	</div>
 
-	<div id="footer">
+	<div class="footer">
 		<div>
 			<ul>
-				<li id="footerlist">Home</li>
-				<li id="footerlist">Agenda</li>
-				<li id="footerlist">Inloggen</li>
-				<li id="footerlist">Contact</li>
+				<li class="footerlist">Home</li>
+				<li class="footerlist">Agenda</li>
+				<li class="footerlist">Inloggen</li>
+				<li class="footerlist">Contact</li>
 			</ul>
 		</div>
 	</div>
