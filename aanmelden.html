@@ -6,13 +6,12 @@
 
 <head>
 	<link type="text/css" rel="stylesheet" href="agenda.css">
-	<title>Agenda</title>
+	<title>Inloggen</title>
 </head>
 
 <body>
 
 <div class="container">
-
 	<div class="header">
 		<div class="navbar">
 			<ul>
@@ -25,154 +24,19 @@
 		</div>
 	</div>
 
-	<div id="content">
-		<div class="infoAgenda">
-			<div id="calendar">
-
-				<h2 style="font-family:Futura;">January 2013</h2>
-				<ul class="weekdays">
-					<li>Sun</li>
-					<li>Mon</li>
-					<li>Tue</li>
-					<li>Wed</li>
-					<li>Thu</li>
-					<li>Fri</li>
-					<li>Sat</li>
-				</ul>
-				<ul>
-					<li class="fill">&nbsp;
-					</li>
-					<li class="fill">&nbsp;
-					</li>
-					<li class="">
-						<strong>01</strong>
-					</li>
-					<li class="">
-						<strong>02</strong>
-					</li>
-					<li class="">
-						<strong>03</strong>
-					</li>
-					<li class="">
-						<strong>04</strong>
-					</li>
-					<li class="">
-						<strong>05</strong>
-					</li>
-				</ul>
-				<ul>
-					<li class="">
-						<strong>06</strong>
-					</li>
-					<li class="">
-						<strong>07</strong>
-					</li>
-					<li class="">
-						<strong>08</strong>
-					</li>
-					<li class="">
-						<strong>09</strong>
-					</li>
-					<li class="">
-						<strong>10</strong>
-					</li>
-					<li class="">
-						<strong>11</strong>
-					</li>
-					<li class="">
-						<strong>12</strong>
-					</li>
-					</ul>
-					<ul>
-					<li class="today">
-						<strong>13</strong>
-					</li>
-					<li class="">
-						<strong>14</strong>
-					</li>
-					<li class="">
-						<strong>15</strong>
-					</li>
-					<li class="">
-						<strong>16</strong>
-					</li>
-					<li class="">
-						<strong>17</strong>
-					</li>
-					<li class="">
-						<strong>18</strong>
-					</li>
-					<li class="">
-						<strong>19</strong>
-					</li>
-				</ul>
-				<ul>
-					<li class="">
-						<strong>20</strong>
-					</li>
-					<li class="">
-						<strong>21</strong>
-					</li>
-					<li class="">
-						<strong>22</strong>
-					</li>
-					<li class="">
-						<strong>23</strong>
-					</li>
-					<li class="">
-						<strong>24</strong>
-					</li>
-					<li class="">
-						<strong>25</strong>
-					</li>
-					<li class="">
-						<strong>26</strong>
-					</li>
-				</ul>
-				<ul>
-					<li class="">
-						<strong>27</strong>
-					</li>
-					<li class="">
-						<strong>28</strong>
-					</li>
-					<li class="">
-						<strong>29</strong>
-					</li>
-					<li class="">
-						<strong>30</strong>
-					</li>
-					<li class="">
-						<strong>31</strong>
-					</li>
-					<li class="fill">&nbsp;</li>
-					<li class="fill">&nbsp;</li>
-				</ul>
-			</div><!-- end #content -->
-			<!-- <div id="agendamenu">
-				<hr style="margin-top:15px;" class="agendahr">
-				<select style="margin-left:52px">
-					<ul>
-						<option>Alle evenementen</option>
-						<option>Aandeelhouders</option>
-						<option>Klanten</option>
-						<option>Werknemers</option>
-					</ul>
-				</select>
-				<select>
-					<ol>
-						<option>Week 1</option>
-						<option>Week 2</option>
-						<option>Week 3</option>
-						<option>Week 4</option>
-					</ol>
-				</select>
-				<input type="button" style="float:right;" value="Activiteit toevoegen" />
-				<hr class="agendahr">
-				<hr style="margin-top: 35%;" class="agendahr">
-			</div> -->
-		</div>
-		<div id="divImageAgenda">
+	<div class="content">
+		<div class="info">
+		<form action="" class="signinform">
+			Email: <input class="loginform" type="text" name="emailUser" placeholder="Email adres"><br>
+    		Wachtwoord: <input class="loginform" type="password" name="wachtwoord" maxlength="10" placeholder="max. 10 karakters"><br>
+    		<input type="checkbox" name="gegevens" class="formMargin">Onthoud mijn gegevens<br>
+    		<input type="button" id="bevestigbutton" value="Aanmelden">
+    		<hr>
+        	Geen account? Registreer <a href="http://webdb.science.uva.nl/webdb13IKC2/registreren.html" class="registreerLink">hier</a>.
+    		<hr>
+    	</form>
+    	</div>
+    	<div id="divImageInloggen">
 		</div>
 	</div>
 
@@ -187,7 +51,8 @@
 			</ul>
 		</div>
 	</div>
-<div>
+
+</div>
 
 </body>
 
