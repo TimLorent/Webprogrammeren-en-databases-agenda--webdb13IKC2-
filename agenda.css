@@ -47,60 +47,293 @@ table {
 	border-spacing: 0;
 }
 
-.container {height: 100%; width: 960px; margin: 0 auto; border-left:3px solid black; border-right: 3px solid black;
+/* Begin van onze CSS */
+
+.container {
+    height: 100%; 
+    width: 960px; 
+    margin: 0 auto; 
+    border-left:3px solid black; 
+    border-right: 3px solid black;
     -moz-box-shadow: 0 0 14px #123;
-    -webkit-box-shadow: 0 0 14px #123;}
-body {background-color: white ; margin: 0; padding: 0; height: 100%;}
-.header {width: 100%; height: 50px; background-color: black;}
-.headerlist {color: #C0C0C0; display: inline-block; padding: 20px; font-family: Futura; margin-top: -7px;}
-.headerlist:hover {color: white; text-decoration: underline}
-.navbar {text-align: center; width: 550px; margin: 0 auto;}
-.content {width: 100%; height: 500px; background-color: #C0C0C0; }
-.footer {height: 100px; background-color: #7D7D7D; text-align: center; border-top: 5px solid black; border-bottom: 3px solid black; }
-.footerlist {color: white; display: inline-block; padding: 20px; font-family: Futura; font-size: 13px}
-.footerlist:hover {font-size: 15px;}
-textarea {max-width: 95%; width: 95%; max-height: 100px; height: 100px; margin-top: 5px; margin-bottom: 5px;}
+    -webkit-box-shadow: 0 0 14px #123;
+}
 
-#divImage {background-image: url("http://images.fineartamerica.com/images-medium-large/pocket-watch-mechanism-maxim-sivyi.jpg"); 
-height: 534px; width: 100%; background-size: 960px; position: absolute; top: 50px; background-repeat: no-repeat;}
-#divImagehome {background-image: url("http://images.fineartamerica.com/images-medium-large/pocket-watch-mechanism-maxim-sivyi.jpg"); 
-height: 500px; width: 100%; background-size: 960px; position: absolute; top: 50px; background-repeat: no-repeat;}
-#divImage2 {background-image:url("http://www.pxleyes.com/source_suggestions/4e22f5e235059_hhighh.jpg")
-; /* http://images2.alphacoders.com/265/265200.jpg*/ height: 100%; width:100%; background-repeat: no-repeat; background-size: 960px;}
-#divImage3 {background-image:url("http://prudentpress.com/wp-content/uploads/watch-mechanism_1280x800.jpg");
-height: 100%; width:100%; background-repeat: no-repeat; background-size: 960px;}
-#divImage4 {background-image:url("http://forums.watchuseek.com/attachments/f20/609875d1327336890-so-if-you-cant-wear-po-suit-what-can-you-suit-men-style-watch-rolex-submariner1.jpg");
-height: 100%; width:100%; background-repeat: no-repeat; background-size: 960px;}
-#divImage5 {background-image:url("http://wallpaperpassion.com/upload/29587/berenice-marlohe-wrist-watch-wallpaper.jpg");
-height:100%; width:100%; background-repeat: no-repeat; background-size: 960px; }
-#divImage6 {background-image:url("http://www.wallpaper-source.com/wallpapers/Man_Made/64933_Man%20Made_Man_Made_-_Watch_Wallpaper.jpg");
-height:100%; width:100%; background-repeat: no-repeat; background-size: 960px;}
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial;
+}
 
-.info {background-color: white; width: 295px; height: 250px; border: 5px solid black; position: absolute; margin: 120px 330px auto; z-index: 10;}
-.info2 {background-color: white; width: 295px; height: 400px; border: 5px solid black; position: absolute; margin: 45px 330px auto;}
-.info3 {background-color: white; width: 850px; margin: 0px auto;}
-#infotekst {font-size: 12px; font-family: Futura; text-align: center; padding: 10px; margin-top: 20%; }
+.header {
+    width: 100%; 
+    height: 50px; 
+    background-color: black;
+    font-family: Georgia;
+}
 
-.signinform {width: 260px; padding: 20px; margin-top: 8px; font-family: Futura; font-size: 12px}
-.signinform2 {width: 260px; padding: 20px; margin: auto; font-family: Futura; font-size: 12px}
+.headerlist {
+    color: #C0C0C0; 
+    display: inline-block; 
+    padding: 20px; 
+    font-family: ; 
+    margin-top: -7px;
+}
 
-.loginform {width: 240px; background: white; padding: 5px; margin-bottom: 5px; margin-top: 5px; 
-	border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;
-    border-bottom: 1px solid black;}
-.loginform2 {border: 1px solid black; padding: 2px;}
-.actform {border: 1px solid black; padding: 2px;}
-.formMargin {margin-top: 10px;}
+#merknaam {
+    font-style:italic; 
+    text-decoration:none; 
+    font-size:20px}
 
-#bevestigbutton {margin-top: 10px; margin-bottom: 10px;}
+a {
+    text-decoration: none;
+}
 
-#regVoornaam {margin-left: 60px;}
-#regAchternaam {margin-left: 50px;}
-#regGebruikersnaam {margin-left: 26px;}
-#regWachtwoord {margin-left: 46px; }
-#bedrijfsEmail {margin-left: 87px;}
+a:visited {
+    text-decoration: none;
+}
 
-#agendamenu {width: 95%; }
-.agendahr {width:95%; margin-left: 52px; }
+.headerlist a:visited {color: #C0C0C0;}
+
+.headerlist a:hover {
+    color: white; 
+    text-decoration: underline;
+}
+
+.navbar {
+    text-align: center; 
+    width: 550px; 
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%; 
+    height: 500px; 
+    background-color: #C0C0C0;
+}
+
+.footer {
+    height: 100px; 
+    background-color: #7D7D7D; 
+    text-align: center; 
+    border-top: 5px solid black; 
+    border-bottom: 3px solid black;
+    font-family: Georgia;
+}
+
+.footerlist {
+    color: white; 
+    display: inline-block; 
+    padding: 4px;  
+    font-size: 13px; 
+}
+
+#navigatie {
+    font-size:15px;
+    color: #C0C0C0;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.footerlist a:visited {
+    color: white;
+}
+
+.footerlist a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+textarea {
+    max-width: 95%; 
+    width: 95%; 
+    max-height: 100px; 
+    height: 100px; 
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+
+.info {
+    background-color: white; 
+    width: 295px;
+    height: 250px;
+    border: 5px solid black;
+    position: absolute; 
+    margin: 120px 330px auto; 
+    z-index: 10;
+}
+
+.info2 {
+    background-color: white; 
+    width: 295px; 
+    height: 400px; 
+    border: 5px solid black; 
+    position: absolute; 
+    margin: 45px 330px auto;
+}
+
+.infoAgenda {
+    background-color: white; 
+    width: 850px; 
+    margin: 0px auto;
+}
+
+#infotekst {
+    font-size: 12px; 
+    font-family: serif; 
+    text-align: center; 
+    padding: 10px; 
+    margin-top: 20%;
+}
+
+.signinform {
+    width: 260px; 
+    padding: 20px; 
+    margin-top: 8px; 
+    font-family: ; 
+    font-size: 12px;
+}
+
+.signinformActiviteiten {
+    width: 260px; 
+    padding: 20px; 
+    margin: auto; 
+    font-family:; 
+    font-size: 12px;}
+
+.loginform {
+    width: 240px; 
+    background: white; 
+    padding: 5px; 
+    margin-bottom: 5px; 
+    margin-top: 5px; 
+    border-top: 1px solid black; 
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.loginformContactRegistreren {
+    border: 1px solid black; 
+    padding: 2px;
+}
+
+.actform {
+    border: 1px solid black; 
+    padding: 2px;
+}
+
+.formMargin {
+    margin-top: 10px;
+}
+
+#begintijd {
+    width:35px; 
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+
+#eindtijd {
+    width:35px; 
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+
+#bevestigbutton {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+#regVoornaam {
+    margin-left: 51px;
+}
+
+#regAchternaam {
+    margin-left: 44px;
+}
+
+#regWachtwoord {
+    margin-left: 40px;
+}
+
+#bedrijfsEmail {
+    margin-left: 74px;
+}
+
+#agendamenu {
+    width: 95%;
+}
+
+.agendahr {
+    width:95%; 
+    margin-left: 52px;
+}
+
+/* Achtergrond afbeeldingen */
+
+#divImageAgenda {
+    background-image: url("http://images.fineartamerica.com/images-medium-large/pocket-watch-mechanism-maxim-sivyi.jpg"); 
+    height: 534px; 
+    width: 100%; 
+    background-size: 960px; 
+    position: absolute; 
+    top: 50px; 
+    background-repeat: no-repeat;
+}
+
+#divImageHome {
+    background-image: url("http://images.fineartamerica.com/images-medium-large/pocket-watch-mechanism-maxim-sivyi.jpg"); 
+    height: 500px; 
+    width: 100%;
+    background-size: 960px; 
+    position: absolute; 
+    top: 50px; 
+    background-repeat: no-repeat;
+}
+
+#divImageInloggen {
+    background-image:url("http://www.pxleyes.com/source_suggestions/4e22f5e235059_hhighh.jpg"); 
+    height: 100%; 
+    width:100%; 
+    background-repeat: no-repeat; 
+    background-size: 960px;
+}
+
+#divImageRegistreren {
+    background-image:url("http://prudentpress.com/wp-content/uploads/watch-mechanism_1280x800.jpg");
+    height: 100%; 
+    width:100%; 
+    background-repeat: no-repeat; 
+    background-size: 960px;
+}
+
+#divImageToevoegen {
+    background-image:url("http://forums.watchuseek.com/attachments/f20/609875d1327336890-so-if-you-cant-wear-po-suit-what-can-you-suit-men-style-watch-rolex-submariner1.jpg");
+    height: 100%; 
+    width:100%; 
+    background-repeat: no-repeat; 
+    background-size: 960px;
+}
+
+#divImageContact {
+    background-image:url("http://wallpaperpassion.com/upload/29587/berenice-marlohe-wrist-watch-wallpaper.jpg");
+    height:100%; 
+    width:100%; 
+    background-repeat: no-repeat; 
+    background-size: 960px;
+}
+
+#divImageBeoordelen {
+    background-image:url("http://www.wallpaper-source.com/wallpapers/Man_Made/64933_Man%20Made_Man_Made_-_Watch_Wallpaper.jpg");
+    height:100%; 
+    width:100%; 
+    background-repeat: no-repeat; 
+    background-size: 960px;
+}
+
+/* Calender/Agenda/Kalender */
 
 #calendar {
     display: block;
