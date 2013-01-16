@@ -15,22 +15,23 @@
 	<div class="header">
 		<div class="navbar">
 			<ul>
-				<li class="headerlist">Home</li>
-				<li class="headerlist">Agenda</li>
-				<li class="headerlist" style="font-style:italic; text-decoration:none; font-size:18px">Merknaam</li>
-				<li class="headerlist">Inloggen</li>
-				<li class="headerlist">Contact</li>
+				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/index.php">Home</a></li>
+				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/agenda.html">Agenda</a></li>
+				<li class="headerlist" id="merknaam">Merknaam</li>
+				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/aanmelden.html">Inloggen</a></li>
+				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</div>
 
 	<div class="content">
 		<div class="info2">
-		<form action="" class="signinform2">
+		<form action="" class="signinformActiviteiten">
 			<strong>Activiteit toevoegen</strong>
     		<hr>
-			Titel: <input type ="text" class="actform" name="Titel" maxlength="25" style="margin-left: 15px"><br>
-			Datum: <input type="date" class="actform" name="datum" maxlength="10" placeholder="dd/mm/jjjj"><br>
+			Titel: <input type ="text" class="actform" name="Titel" maxlength="25" style="margin-left:36px"><br>
+			Begindatum: <input type="date" class="actform" name="datum" maxlength="10" placeholder="dd/mm/jjjj" style="width:70px;"><br>
+			Einddatum: <input type="date" class="actform" name="datum" maxlength="10" placeholder="dd/mm/jjjj" style="width:70px; margin-left: 6px;"><br>
 			<br>
 			Activiteit details:
 			<textarea NAME="tekstvak" ROWS="4" COLS="50" maxlength="375"></textarea><br>
@@ -43,8 +44,8 @@
       		</ul>
     		</select>
     		<br>
-			Begintijd: <input type="text" class="actform" name="Begintijd" maxlength="5" placeholder="00:00" style="width: 50px; margin-top: 5px; margin-bottom: 5px;">
-			Eindtijd: <input type="text" class="actform" name="Eindtijd" maxlength="5" placeholder="00:00" style="width: 50px; margin-top: 5px; margin-bottom: 5px;">
+			Begintijd: <input type="text" class="actform" id="begintijd" name="Begintijd" maxlength="5" placeholder="00:00">
+			Eindtijd: <input type="text" class="actform" id="eindtijd" name="Eindtijd" maxlength="5" placeholder="00:00">
 			<br>
 			Herhaal afspraak:
 			<select>
@@ -60,17 +61,18 @@
 			<hr>
 			</div>
 		</form>
-		<div id="divImage4">
+		<div id="divImageToevoegen">
 		</div>
 	</div>
 
 	<div class="footer">
 		<div>
+			<strong class="footerlist" id="navigatie">Navigatie</strong>
 			<ul>
-				<li class="footerlist">Home</li>
-				<li class="footerlist">Agenda</li>
-				<li class="footerlist">Inloggen</li>
-				<li class="footerlist">Contact</li>
+				<li class="footerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/index.php">Home</a></li>
+				<li class="footerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/agenda.html">Agenda</a></li>
+				<li class="footerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/aanmelden.html">Inloggen</a></li>
+				<li class="footerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</div>
