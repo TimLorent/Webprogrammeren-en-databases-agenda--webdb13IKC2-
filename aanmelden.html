@@ -6,52 +6,188 @@
 
 <head>
 	<link type="text/css" rel="stylesheet" href="agenda.css">
-	<title>Inloggen</title>
+	<title>Agenda</title>
 </head>
 
 <body>
 
 <div class="container">
+
 	<div class="header">
 		<div class="navbar">
 			<ul>
-				<li class="headerlist">Home</li>
-				<li class="headerlist">Agenda</li>
-				<li class="headerlist" style="font-style:italic; text-decoration:none; font-size:18px">Merknaam</li>
-				<li class="headerlist">Inloggen</li>
-				<li class="headerlist">Contact</li>
+				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/index.php">Home</a></li>
+				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/agenda.html">Agenda</a></li>
+				<li class="headerlist" id="merknaam">Merknaam</li>
+				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/aanmelden.html">Inloggen</a></li>
+				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</div>
 
-	<div class="content">
-		<div class="info">
-		<form action="" class="signinform">
-			Email: <input class="loginform" type="text" name="emailUser" placeholder="Email adres"><br>
-    		Wachtwoord: <input class="loginform" type="password" name="wachtwoord" maxlength="10" placeholder="max. 10 karakters"><br>
-    		<input type="checkbox" name="gegevens" class="formMargin">Onthoud mijn gegevens<br>
-    		<input type="button" id="bevestigbutton" value="Aanmelden">
-    		<hr>
-        	Geen account? Registreer <a href="file:///Users/timlorent/Documents/UvA/Semester%201/Periode%203/Webprogrammeren%20en%20Databases/Project/Pagina's/registreren.html">hier</a>.
-    		<hr>
-    	</form>
-    	</div>
-    	<div id="divImage2">
+	<div id="content">
+		<div class="infoAgenda">
+			<div id="calendar">
+
+				<h2 style="font-family:Futura;">January 2013</h2>
+				<ul class="weekdays">
+					<li>Sun</li>
+					<li>Mon</li>
+					<li>Tue</li>
+					<li>Wed</li>
+					<li>Thu</li>
+					<li>Fri</li>
+					<li>Sat</li>
+				</ul>
+				<ul>
+					<li class="fill">&nbsp;
+					</li>
+					<li class="fill">&nbsp;
+					</li>
+					<li class="">
+						<strong>01</strong>
+					</li>
+					<li class="">
+						<strong>02</strong>
+					</li>
+					<li class="">
+						<strong>03</strong>
+					</li>
+					<li class="">
+						<strong>04</strong>
+					</li>
+					<li class="">
+						<strong>05</strong>
+					</li>
+				</ul>
+				<ul>
+					<li class="">
+						<strong>06</strong>
+					</li>
+					<li class="">
+						<strong>07</strong>
+					</li>
+					<li class="">
+						<strong>08</strong>
+					</li>
+					<li class="">
+						<strong>09</strong>
+					</li>
+					<li class="">
+						<strong>10</strong>
+					</li>
+					<li class="">
+						<strong>11</strong>
+					</li>
+					<li class="">
+						<strong>12</strong>
+					</li>
+					</ul>
+					<ul>
+					<li class="today">
+						<strong>13</strong>
+					</li>
+					<li class="">
+						<strong>14</strong>
+					</li>
+					<li class="">
+						<strong>15</strong>
+					</li>
+					<li class="">
+						<strong>16</strong>
+					</li>
+					<li class="">
+						<strong>17</strong>
+					</li>
+					<li class="">
+						<strong>18</strong>
+					</li>
+					<li class="">
+						<strong>19</strong>
+					</li>
+				</ul>
+				<ul>
+					<li class="">
+						<strong>20</strong>
+					</li>
+					<li class="">
+						<strong>21</strong>
+					</li>
+					<li class="">
+						<strong>22</strong>
+					</li>
+					<li class="">
+						<strong>23</strong>
+					</li>
+					<li class="">
+						<strong>24</strong>
+					</li>
+					<li class="">
+						<strong>25</strong>
+					</li>
+					<li class="">
+						<strong>26</strong>
+					</li>
+				</ul>
+				<ul>
+					<li class="">
+						<strong>27</strong>
+					</li>
+					<li class="">
+						<strong>28</strong>
+					</li>
+					<li class="">
+						<strong>29</strong>
+					</li>
+					<li class="">
+						<strong>30</strong>
+					</li>
+					<li class="">
+						<strong>31</strong>
+					</li>
+					<li class="fill">&nbsp;</li>
+					<li class="fill">&nbsp;</li>
+				</ul>
+			</div><!-- end #content -->
+			<!-- <div id="agendamenu">
+				<hr style="margin-top:15px;" class="agendahr">
+				<select style="margin-left:52px">
+					<ul>
+						<option>Alle evenementen</option>
+						<option>Aandeelhouders</option>
+						<option>Klanten</option>
+						<option>Werknemers</option>
+					</ul>
+				</select>
+				<select>
+					<ol>
+						<option>Week 1</option>
+						<option>Week 2</option>
+						<option>Week 3</option>
+						<option>Week 4</option>
+					</ol>
+				</select>
+				<input type="button" style="float:right;" value="Activiteit toevoegen" />
+				<hr class="agendahr">
+				<hr style="margin-top: 35%;" class="agendahr">
+			</div> -->
+		</div>
+		<div id="divImageAgenda">
 		</div>
 	</div>
 
 	<div class="footer">
 		<div>
+			<strong class="footerlist" id="navigatie">Navigatie</strong>
 			<ul>
-				<li class="footerlist">Home</li>
-				<li class="footerlist">Agenda</li>
-				<li class="footerlist">Inloggen</li>
-				<li class="footerlist">Contact</li>
+				<li class="footerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/index.php">Home</a></li>
+				<li class="footerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/agenda.html">Agenda</a></li>
+				<li class="footerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/aanmelden.html">Inloggen</a></li>
+				<li class="footerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</div>
-
-</div>
+<div>
 
 </body>
 
