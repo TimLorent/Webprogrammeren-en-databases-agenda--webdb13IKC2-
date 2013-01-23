@@ -12,12 +12,13 @@
 <body>
 
 <div class="container">
+
 	<div class="header">
 		<div class="navbar">
 			<ul>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/index.php">Home</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/agenda.html">Agenda</a></li>
-				<li class="headerlist" id="merknaam">Merknaam</li>
+				<li class="headerlist" id="merknaam">Kar&ograve;ra</li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/aanmelden.html">Inloggen</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/contact.html">Contact</a></li>
 			</ul>
@@ -26,43 +27,60 @@
 
 	<div class="content">
 		<div class="info2">
-		<form action="" class="signinformActiviteiten">
-			<strong>Activiteit toevoegen</strong>
-    		<hr>
-			Titel: <input type ="text" class="actform" name="Titel" maxlength="25" style="margin-left:36px"><br>
-			Begindatum: <input type="date" class="actform" name="datum" maxlength="10" placeholder="dd/mm/jjjj" style="width:70px;"><br>
-			Einddatum: <input type="date" class="actform" name="datum" maxlength="10" placeholder="dd/mm/jjjj" style="width:70px; margin-left: 6px;"><br>
-			<br>
-			Activiteit details:
-			<textarea NAME="tekstvak" ROWS="4" COLS="50" maxlength="375"></textarea><br>
-			Doelgroep:
-			<select>
-      		<ul>
-        		<option value="Aandeelhouders">Aandeelhouders</option>
-        		<option value="Klanten">Klanten</option>
-        		<option value="Werknemers">Werknemers</option>
-      		</ul>
-    		</select>
-    		<br>
-			Begintijd: <input type="text" class="actform" id="begintijd" name="Begintijd" maxlength="5" placeholder="00:00">
-			Eindtijd: <input type="text" class="actform" id="eindtijd" name="Eindtijd" maxlength="5" placeholder="00:00">
-			<br>
-			Herhaal afspraak:
-			<select>
-      			<ul>
-        			<option value="Dagelijks">Dagelijks</option>
-        			<option value="Wekelijks">Wekelijks</option>
-        			<option value="Maandelijks">Maandelijks</option>
-        			<option value="Jaarlijks">Jaarlijks</option>
-      			</ul>
-    		</select>
-			<hr>
-				<input type="button" value="Versturen" />
-			<hr>
-			</div>
-		</form>
+			<!-- Formulier voor het toevoegen van een activiteit aan de agenda -->
+			<form action="test2.php" class="signinformActiviteiten" method="post">
+				<strong>Activiteit toevoegen</strong>
+    			
+    			<hr>
+				Titel: <input type ="text" class="actform" name="titel" maxlength="25" style="margin-left:45px"><br>
+				
+				Begindatum: <input type="date" class="actform" name="begindatum" maxlength="10" placeholder="dd/mm/jjjj" style="width:70px; margin-left: 2px;"><br>
+				
+				Einddatum: <input type="date" class="actform" name="einddatum" maxlength="10" placeholder="dd/mm/jjjj" style="width:70px; margin-left: 9px;"><br>
+				
+				<br>
+				
+				Activiteit details:
+				<textarea name="activiteitdetails" rows="4" cols="50" maxlength="375"></textarea><br>
+				
+				Doelgroep:
+				<!-- Select/Drop-down menu voor het selecteren van de doelgroep van de activiteit -->
+				<select name="doelgroep">
+        				<option value="Aandeelhouders">Aandeelhouders</option>
+        				<option value="Klanten">Klanten</option>
+        				<option value="Werknemers">Werknemers</option>
+    			</select>
+
+    			<!-- <div style="overflow-x:scroll;overflow-y:hidden;">
+    			<input type="text" class="actform" name="doelgroep" placeholder="Aandeelhouders, Klanten, of Werknemers" />
+    			</div> -->
+    			
+    			<br>
+				Begintijd: <input type="text" class="actform" id="begintijd" name="begintijd" maxlength="5" placeholder="00:00">
+				Eindtijd: <input type="text" class="actform" id="eindtijd" name="eindtijd" maxlength="5" placeholder="00:00">
+				
+				<br>
+				Herhaal activiteit:
+				<select name="herhaal">
+        				<option value="Dagelijks">Dagelijks</option>
+        				<option value="Wekelijks">Wekelijks</option>
+        				<option value="Maandelijks">Maandelijks</option>
+        				<option value="Jaarlijks">Jaarlijks</option>
+    			</select>
+    			
+    			<!-- <input type="text" class="actform" name="herhaalactiviteit" style="overflow:scroll;" /> -->
+				
+				<hr>
+				<input type="submit" value="Versturen" />
+				<hr>
+				
+			</form>
+		</div>
+
+		<!-- Deze div is de achtergrond-afbeelding van de activiteit-toevoegen pagina. -->
 		<div id="divImageToevoegen">
 		</div>
+
 	</div>
 
 	<div class="footer">
