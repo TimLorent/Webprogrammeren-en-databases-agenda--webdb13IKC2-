@@ -6,18 +6,19 @@
 
 <head>
 	<link type="text/css" rel="stylesheet" href="agenda.css">
-	<title>Redactie | Activiteit beoordelen</title>
+	<title>Activiteit beoordelen</title>
 </head>
 
 <body>
 
 <div class="container">
+
 	<div class="header">
 		<div class="navbar">
 			<ul>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/index.php">Home</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/agenda.html">Agenda</a></li>
-				<li class="headerlist" id="merknaam">Merknaam</li>
+				<li class="headerlist" id="merknaam">Kar&ograve;ra</li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/aanmelden.html">Inloggen</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/contact.html">Contact</a></li>
 			</ul>
@@ -26,9 +27,11 @@
 
 	<div class="content">
 		<div class="info2">
-			<form action="" class="signinformActiviteiten">
+			<!-- Formulier voor het beoordelen van een activiteit, om deze vervolgens dan wel of niet goed te keuren -->
+			<form action="" class="signinformActiviteiten" method="post">
 				<strong>Activiteit beoordelen</strong>
 				<hr>
+				<!-- Select/Drop-down menu zodat de editor/redactie activiteiten kan selecteren om te beoordelen -->
 				<select>
 					<option>Activiteit 1</option>
 					<option>Activiteit 2</option>
@@ -36,15 +39,18 @@
 				</select>
 				<hr>
 				Activiteit: <textarea readonly="true"></textarea>
-				Feedback: <textarea maxlength="375"></textarea>
+				Feedback: <textarea maxlength="375" name="feedback"></textarea>
 				<hr>
-				<input type="button" value="Bevestigen" />
-				<input type="button" value="Afkeuren" />
+				<input type="submit" value="Bevestigen" />
+				<input type="submit" value="Afkeuren" />
 				<hr>
 			</form>
 		</div>
+
+		<!-- Deze div is de achtergrond-afbeelding van activiteit-beoordelen pagina. -->
 		<div id="divImageBeoordelen">
 		</div>
+
 	</div>
 
 	<div class="footer">
