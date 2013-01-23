@@ -85,7 +85,9 @@ body {
 #merknaam {
     font-style:italic; 
     text-decoration:none; 
-    font-size:20px}
+    font-size:20px;
+    color: white;
+}
 
 a {
     text-decoration: none;
@@ -165,6 +167,16 @@ textarea {
     z-index: 10;
 }
 
+.infohome {
+    background-color: white; 
+    width: 295px;
+    height: 250px;
+    border: 5px solid black;
+    position: absolute; 
+    margin: 120px 330px auto; 
+    z-index: 10;
+}
+
 .info2 {
     background-color: white; 
     width: 295px; 
@@ -185,7 +197,7 @@ textarea {
     font-family: serif; 
     text-align: center; 
     padding: 10px; 
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .signinform {
@@ -275,7 +287,7 @@ textarea {
 
 #divImageAgenda {
     background-image: url("http://images.fineartamerica.com/images-medium-large/pocket-watch-mechanism-maxim-sivyi.jpg"); 
-    height: 534px; 
+    height: 500px; 
     width: 100%; 
     background-size: 960px; 
     position: absolute; 
@@ -338,7 +350,7 @@ textarea {
 #calendar {
     display: block;
     width: 812px;
-    margin: 20px auto 10px;
+    margin: 5px auto 5px;
     padding: 10px;
     background-color: #FFF;
     -moz-border-radius: 0px;
@@ -348,8 +360,9 @@ textarea {
     -moz-box-shadow: 0 0 14px #123;
     -webkit-box-shadow: 0 0 14px #123;
     box-shadow: 0 0 14px #123;
-    position: relative;
+    position: relative;      
     z-index: 10;
+    height: 460px;
 }
 
 h2,p {
@@ -357,7 +370,7 @@ h2,p {
     text-align: center;
 }
 
-#calendar ul {
+#calendar ul { 
     display: block;
     clear: left;
     height: 82px;
@@ -373,7 +386,7 @@ h2,p {
 }
 
 #calendar li {
-    font-family: Futura;
+    font-family: Georgia;
     position: relative;
     float: left;
     margin: 0;
@@ -409,7 +422,7 @@ h2,p {
     background-color: #BCD;
 }
 
-#calendar .weekdays li:hover,li.fill:hover {
+#calendar .weekdays li:hover {
     background-color: #BCD;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
@@ -452,4 +465,5 @@ h2,p {
     -webkit-box-shadow: 0 0 6px #789;
     box-shadow: 0 0 6px #789;
 }
+
 
