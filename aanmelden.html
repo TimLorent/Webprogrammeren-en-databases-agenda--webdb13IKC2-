@@ -12,12 +12,13 @@
 <body>
 
 <div class="container">
+
 	<div class="header">
 		<div class="navbar">
 			<ul>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/index.php">Home</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/agenda.html">Agenda</a></li>
-				<li class="headerlist" id="merknaam">Merknaam</li>
+				<li class="headerlist" id="merknaam">Kar&ograve;ra</li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/aanmelden.html">Inloggen</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/contact.html">Contact</a></li>
 			</ul>
@@ -26,18 +27,22 @@
 
 	<div class="content">
 		<div class="info">
-		<form action="" class="signinform">
-			Email: <input class="loginform" type="text" name="emailUser" placeholder="Email adres"><br>
-    		Wachtwoord: <input class="loginform" type="password" name="wachtwoord" maxlength="10" placeholder="max. 10 karakters"><br>
-    		<input type="checkbox" name="gegevens" class="formMargin">Onthoud mijn gegevens<br>
-    		<input type="button" id="bevestigbutton" value="Aanmelden">
-    		<hr>
-        	Geen account? Registreer <a href="http://webdb.science.uva.nl/webdb13IKC2/registreren.html" class="registreerLink">hier</a>.
-    		<hr>
-    	</form>
+			<!-- Formulier voor het invoeren van gegevens om in te loggen op de website. -->
+			<form action="" class="signinform">
+				Email: <input class="loginform" type="text" name="emailUser" placeholder="Email adres"><br>
+    			Wachtwoord: <input class="loginform" type="password" name="wachtwoord" maxlength="10" placeholder="max. 10 karakters"><br>
+    			<input type="checkbox" name="gegevens" class="formMargin">Onthoud mijn gegevens<br>
+    			<input type="submit" id="bevestigbutton" value="Inloggen">
+    			<hr>
+        		Geen account? Registreer <a href="http://webdb.science.uva.nl/webdb13IKC2/registreren.html" class="registreerLink">hier</a>.
+    			<hr>
+    		</form>
     	</div>
+    	
+    	<!-- Deze div is de achtergrond-afbeelding van de log-in pagina. -->
     	<div id="divImageInloggen">
 		</div>
+	
 	</div>
 
 	<div class="footer">
