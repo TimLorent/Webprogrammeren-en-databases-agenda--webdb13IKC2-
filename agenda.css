@@ -259,19 +259,31 @@ textarea {
 }
 
 #regVoornaam {
-    margin-left: 51px;
+    margin-left: 58px;
 }
 
 #regAchternaam {
-    margin-left: 44px;
+    margin-left: 49px;
 }
 
 #regWachtwoord {
-    margin-left: 40px;
+    margin-left: 47px;
 }
 
 #bedrijfsEmail {
-    margin-left: 74px;
+    margin-left: 84px;
+}
+
+#contactVoornaam {
+    margin-left: 20px;
+}
+
+#contactAchternaam {
+    margin-left: 11px;
+}
+
+#contactEmail {
+    margin-left:46px;
 }
 
 #agendamenu {
