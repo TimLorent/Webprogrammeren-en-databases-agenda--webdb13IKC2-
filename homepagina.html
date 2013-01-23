@@ -5,19 +5,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
+	<!-- Verwijzing naar de CSS file -->
 	<link type="text/css" rel="stylesheet" href="agenda.css">
-	<title>Homepagina | ?bedrijf?</title>
+	<title>Homepagina | Kar&ograve;ra</title>
 </head>
 
 <body>
 
 <div class="container">
+	<!-- Hieronder bevindt zich de code voor de "header"
+		 Unorderded list, elk list-item heeft een link naar andere pagina's.
+		 Voor de specificatie van classes, kijk in de CSS file. -->
+	
 	<div class="header">
 		<div class="navbar">
 			<ul>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/index.php">Home</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/agenda.html">Agenda</a></li>
-				<li class="headerlist" id="merknaam">Merknaam</li>
+				<li class="headerlist" id="merknaam">Kar&ograve;ra</li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/aanmelden.html">Inloggen</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/contact.html">Contact</a></li>
 			</ul>
@@ -25,19 +30,31 @@
 	</div>
 
 	<div class="content">
-		<div class="info">
+		<div class="infohome">
+			<!-- Het tekstvak wat op de homepagina verschijnt. -->
 			<p id="infotekst">
-				Wij zijn een bedrijf dat iets verkoopt wat wij nog niet weten.
-				Maar zodra wij weten wat we zijn, zullen wij de titel van de
-				pagina veranderen en komt hier informatie over ons bedrijf.
+				Kar&ograve;ra
 				<br>
 				<br>
-				Bezoek <a>hier</a> onze agenda!
+				Welkom op de website van Kar&ograve;ra, een familie bedrijf dat zich al sinds 1923 specialiseert in het maken
+				van horloges. Onze horloges worden van begin tot eind door de beste horlogemakers in Hongarije met de hand vervaardigd.
+				Van ons hoeft u niets minder dan de beste kwaliteit te verwachten en streven naar perfectie met elk horloge.
+				<br>
+				<br>
+				Informatie over de lancering van nieuwe modellen is te vinden in onze agenda.
+				<br>
+				<br>
+				Bezoek deze <a>hier</a>!
 			</p>
 		</div>
+
+		<!-- Deze div is de achtergrond-afbeelding van de homepagina. -->
 		<div id="divImageHome">
 		</div>
+	
 	</div>
+
+	<!-- Footer, wederom met een unordered list. Display is inline-block, zodat het naast elkaar staat -->
 	<div class="footer">
 		<div>
 			<strong class="footerlist" id="navigatie">Navigatie</strong>
