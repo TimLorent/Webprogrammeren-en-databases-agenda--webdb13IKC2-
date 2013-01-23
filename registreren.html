@@ -12,12 +12,13 @@
 <body>
 
 <div class="container">
+
 	<div class="header">
 		<div class="navbar">
 			<ul>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/index.php">Home</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/agenda.html">Agenda</a></li>
-				<li class="headerlist" id="merknaam">Merknaam</li>
+				<li class="headerlist" id="merknaam">Kar&ograve;ra</li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/aanmelden.html">Inloggen</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/contact.html">Contact</a></li>
 			</ul>
@@ -25,21 +26,30 @@
 	</div>
 
 	<div class="content">
+		<!-- class="info" is een blok/veld waar de formulieren in worden gezet. Voor specificaties, bekijk agenda.css -->
 		<div class="info">
-			<form action="" class="signinform">
+			<!-- Formulier voor het invullen van gegevens, met input tags. Sommige hebben een maxlength, zodat de
+			gebruiker een limiet heeft voor het invoeren van tekens. -->
+			<!-- input type="password" zorgt ervoor dat de ingevoerde tekens niet getoond worden. -->
+
+
+			<form action="test.php" class="signinform" method="post">
 				<strong>Registeren</strong>
 				<hr>
-				Voornaam*: <input type="text" name="achternaam" id="regVoornaam" class="loginformContactRegistreren" maxlength="40"><br>
+				Voornaam*: <input type="text" name="voornaam" id="regVoornaam" class="loginformContactRegistreren" maxlength="40"><br>
 				Achternaam*: <input type="text" name="achternaam" id="regAchternaam" class="loginformContactRegistreren" maxlength="20"><br>
-				Email*: <input type="text" name="email" placeholder="Bedrijfs email" id="bedrijfsEmail" class="loginformContactRegistreren"><br>
-				Wachtwoord*: <input type="password" name="wachtwoord" maxlength="10" placeholder="max. 10 karakters" id="regWachtwoord" class="loginformContactRegistreren"><br>
-				Herhaal wachtwoord*: <input type="password" name="wachtwoord" maxlength="10" placeholder="max. 10 karakters" id="regHerWachtwoord" class="loginformContactRegistreren"><br>
+				Email*: <input type="text" name="email" placeholder="bedrijfsemail" id="bedrijfsEmail" class="loginformContactRegistreren"><br>
+				Wachtwoord*: <input type="password" name="wachtwoord" maxlength="10" placeholder="max. 10 tekens" id="regWachtwoord" class="loginformContactRegistreren"><br>
+				Herhaal wachtwoord*: <input type="password" name="herwachtwoord" maxlength="10" placeholder="max. 10 tekens" id="regHerWachtwoord" class="loginformContactRegistreren"><br>
 				<hr>
-					<input type="button" style="margin-top:5px;" value="Bevestigen" />
+					<input type="submit" style="margin-top:5px;" value="Bevestigen" />
 			</form>
 		</div>
+
+		<!-- Deze div is de achtergrond-afbeelding van de registreer pagina. -->
 		<div id="divImageRegistreren">
 		</div>
+	
 	</div>
 
 	<div class="footer">
