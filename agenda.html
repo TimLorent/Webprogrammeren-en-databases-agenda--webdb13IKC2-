@@ -18,7 +18,7 @@
 			<ul>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/index.php">Home</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/agenda.html">Agenda</a></li>
-				<li class="headerlist" id="merknaam">Merknaam</li>
+				<li class="headerlist" id="merknaam">Kar&ograve;ra</li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/aanmelden.html">Inloggen</a></li>
 				<li class="headerlist"><a href="http://webdb.science.uva.nl/webdb13IKC2/contact.html">Contact</a></li>
 			</ul>
@@ -28,11 +28,14 @@
 	<div id="content">
 		<div class="infoAgenda">
 			<div id="calendar">
+				<!-- Select menu voor het selecteren van een doelgroep. De agenda staat standaard op alle doelgroepen,
+				maar hier kan de gebruiker berichten filteren op doelgroep(en). -->
 				<select>
 					<option>Aandeelhouders</option>
 					<option>Klanten</option>
 					<option>Werknemers</option>
 				</select>
+				<!-- Select menu voor het kiezen van de maand die wordt afgebeeld in de agenda. -->
 				<select>
 					<option>Januari 2013</option>
 					<option>Februari 2013</option>
@@ -47,7 +50,8 @@
 					<option>November 2013</option>
 					<option>December 2013</option>
 				</select>
-				<h2 style="font-family:Futura;">January 2013</h2>
+				<h2 style="font-family:Georgia; display:inline;">Januari 2013</h2>
+				<!-- Vanaf hier begint de agenda. -->
 				<ul class="weekdays">
 					<li>Sun</li>
 					<li>Mon</li>
@@ -57,6 +61,8 @@
 					<li>Fri</li>
 					<li>Sat</li>
 				</ul>
+				<!-- Hieronder bevinden zich de dagen van de maand in de agenda.
+				Elke rij, ofwel elke unordered list, heeft 7 lists voor de dagen. -->
 				<ul>
 					<li class="fill">&nbsp;
 					</li>
@@ -102,7 +108,7 @@
 					</li>
 					</ul>
 					<ul>
-					<li class="today">
+					<li class="">
 						<strong>13</strong>
 					</li>
 					<li class="">
@@ -167,6 +173,7 @@
 					<li class="fill">&nbsp;</li>
 				</ul>
 			</div><!-- end #content -->
+
 			<!-- <div id="agendamenu">
 				<hr style="margin-top:15px;" class="agendahr">
 				<select style="margin-left:52px">
@@ -190,8 +197,11 @@
 				<hr style="margin-top: 35%;" class="agendahr">
 			</div> -->
 		</div>
+
+		<!-- Deze div is de achtergrond-afbeelding van de agenda pagina. -->
 		<div id="divImageAgenda">
 		</div>
+
 	</div>
 
 	<div class="footer">
